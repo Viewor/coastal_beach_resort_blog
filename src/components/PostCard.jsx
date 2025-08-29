@@ -20,7 +20,7 @@ export default function BlogCard({ posts }) {
 						<img
 							src={post.image}
 							alt={post.title}
-							className="rounded-lg w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300"
+							className="rounded-lg w-full h-auto object-cover hover:scale-[1.02] max-h-96 transition-transform duration-300"
 						/>
 					</div>
 

@@ -5,6 +5,17 @@ import BlogFilter from '@/components/BlogFilter.jsx';
 import PostCard from '@/components/PostCard.jsx';
 
 import beach from '@/assets/beach.jpg';
+import bike from '@/assets/bike-ride.jpg';
+import cultural from '@/assets/cultural-parade.jpg';
+import luxury from '@/assets/luxury.jpg';
+import oceanfront from '@/assets/oceanfront.jpg';
+import romantic from '@/assets/romantic.jpg';
+import tourism from '@/assets/tourism.jpg';
+import tug from '@/assets/tug-of-war.png';
+import year from '@/assets/Thatched Bar.jpg';
+import loungers from '@/assets/loungers.jpg';
+import spar from '@/assets/spar.jpg';
+import mountain from '@/assets/mountain.jpg';
 
 // Sample blog posts
 const blogPosts = [
@@ -17,7 +28,7 @@ const blogPosts = [
 						Great UI isn't about minimalism for its own sake — it's about intentional clarity.
 						From whitespace to typography, every decision should guide the user, not distract them.
 						In this post, we explore how to design with purpose, reduce friction, and let your content shine.`,
-		image: beach,
+		image: loungers,
 		category: 'Travel',
 		date: 'August 15, 2025',
 		auth: 'Vuyo',
@@ -32,7 +43,7 @@ const blogPosts = [
 		title: 'A Journey to Our Mountain Retreat',
 		excerpt: 'Experience tranquility and adventure in the heart of the mountains with breathtaking views.',
 		content: `Nestled in the mountains, our retreat offers adventure and relaxation...`,
-		image: beach,
+		image: mountain,
 		category: 'Adventure',
 		date: 'August 10, 2025',
 		auth: 'Vuyo',
@@ -46,7 +57,7 @@ const blogPosts = [
 		title: 'Ultimate Relaxation at Our Luxury Spa',
 		excerpt: 'Indulge in a rejuvenating spa experience with world-class treatments and serene ambiance.',
 		content: `Our luxury spa offers a sanctuary for relaxation and wellness...`,
-		image: beach,
+		image: spar,
 		category: 'Wellness',
 		date: 'August 5, 2025',
 		auth: 'Vuyo',
@@ -60,7 +71,7 @@ const blogPosts = [
 		title: 'Coastal Adventures Await You',
 		excerpt: 'From kayaking to snorkeling, explore the vibrant marine life along our coast.',
 		content: `Dive into adventure with our coastal activities...`,
-		image: beach,
+		image: bike,
 		category: 'Adventure',
 		date: 'July 30, 2025',
 		auth: 'Vuyo',
@@ -75,7 +86,7 @@ const blogPosts = [
 		title: 'Oceanfront Dining: A Culinary Experience',
 		excerpt: 'Enjoy gourmet meals with a spectacular view of the ocean at our exclusive seaside restaurant.',
 		content: `Our oceanfront restaurant offers the finest dishes, prepared with fresh, locally sourced ingredients...`,
-		image: beach,
+		image: oceanfront,
 		category: 'Dining',
 		date: 'July 25, 2025',
 		auth: 'Vuyo',
@@ -89,7 +100,7 @@ const blogPosts = [
 		title: 'Sustainable Tourism: How We Protect Our Beaches',
 		excerpt: 'Learn about our commitment to preserving natural resources and protecting the environment.',
 		content: `We’ve implemented sustainable tourism practices to reduce our environmental footprint and maintain the natural beauty of our beaches...`,
-		image: beach,
+		image: tourism,
 		category: 'Sustainability',
 		date: 'July 20, 2025',
 		auth: 'Vuyo',
@@ -103,7 +114,7 @@ const blogPosts = [
 		title: 'Family-Friendly Activities for All Ages',
 		excerpt: 'From kids’ clubs to family adventures, there’s something for everyone at our resort.',
 		content: `We offer a variety of fun, engaging activities designed for the entire family...`,
-		image: beach,
+		image: tug,
 		category: 'Family',
 		date: 'July 15, 2025',
 		auth: 'Vuyo',
@@ -117,7 +128,7 @@ const blogPosts = [
 		title: 'Beachside Nightlife: Bars, Bonfires & More',
 		excerpt: 'Unwind and enjoy the vibrant nightlife with beach bonfires, cocktails, and live music.',
 		content: `As the sun sets, the resort comes to life with exciting beachside activities like bonfires, cocktail bars, and live entertainment...`,
-		image: beach,
+		image: year,
 		category: 'Entertainment',
 		date: 'July 10, 2025',
 		auth: 'Vuyo',
@@ -131,7 +142,7 @@ const blogPosts = [
 		title: 'Plan the Perfect Romantic Getaway',
 		excerpt: 'Enjoy an intimate, unforgettable escape with your loved one at our luxurious resort.',
 		content: `From candlelit dinners to private beach walks, we provide everything you need for a romantic getaway...`,
-		image: beach,
+		image: romantic,
 		category: 'Romance',
 		date: 'July 5, 2025',
 		auth: 'Vuyo',
@@ -145,7 +156,7 @@ const blogPosts = [
 		title: 'Discover the Local Culture & Heritage',
 		excerpt: 'Dive deep into the local culture and heritage with curated tours and experiences.',
 		content: `Learn about the rich history and traditions of the region with guided cultural tours and local workshops...`,
-		image: beach,
+		image: cultural,
 		category: 'Culture',
 		date: 'June 30, 2025',
 		auth: 'Vuyo',
@@ -173,7 +184,7 @@ const blogPosts = [
 		title: 'Experience Luxury Accommodation Like Never Before',
 		excerpt: 'Stay in our stunning villas and suites with breathtaking views of the ocean and mountains.',
 		content: `Indulge in world-class accommodations, from oceanfront villas to suites with panoramic views...`,
-		image: beach,
+		image: luxury,
 		category: 'Accommodation',
 		date: 'June 20, 2025',
 		auth: 'Vuyo',
