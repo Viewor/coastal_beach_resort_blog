@@ -20,7 +20,7 @@ export default function BlogFilter({ categories, selectedCategory, setSelectedCa
       <div className="relative w-full max-w-md">
         <Input
           placeholder="Search blog posts..."
-          className="pr-12 rounded-full border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-primary"
+          className="pr-12 rounded-full border border-amber-500 focus:ring-2 focus:ring-primary"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />

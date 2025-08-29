@@ -12,7 +12,7 @@ export default function BlogCard({ posts }) {
 			{posts.map((post) => (
 				<article 
 					key={post.id}
-					className="relative bg-white dark:bg-neutral-900 rounded-xl shadow-md overflow-hidden p-3 md:p-6 mb-4 md:mb-8 flex flex-col md:flex-row gap-6"
+					className="relative bg-white dark:bg-neutral-900 border rounded-xl shadow-md overflow-hidden p-3 md:p-6 mb-4 md:mb-8 flex flex-col md:flex-row gap-6"
 					data-aos="fade-up"
 				>
 					{/* Image */}
@@ -26,7 +26,7 @@ export default function BlogCard({ posts }) {
 
 					{/* Text Content */}
 					<div className="relative z-10 w-full md:w-1/2 text-center md:text-left">
-						<span className="text-sm uppercase tracking-wide font-semibold mb-2 block font-mono text-gray-500">
+						<span className="text-sm uppercase tracking-wide font-semibold mb-2 block font-mono text-amber-500">
 							{post.category}
 						</span>
 						<h2 className="text-2xl md:text-3xl font-bold mb-4 font-sans">
@@ -39,7 +39,7 @@ export default function BlogCard({ posts }) {
 							{post.excerpt}
 						</p>
 						<button onClick={() => handleItemClick(post,post.slug)}
-							className="inline-block bg-white text-black border border-black px-5 py-2 rounded-md font-medium hover:bg-black hover:text-white transition-all duration-300"
+							className="inline-block bg-white text-amber-600 border border-amber-600 px-5 py-2 rounded-md font-medium hover:bg-black hover:text-white transition-all duration-300"
 						>
 							Read More
 						</button>
